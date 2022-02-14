@@ -5,7 +5,7 @@ const input = document.querySelector('input');
 
 // Create an click event listener for the Add Chapter button using addEventListener and an anonymous function. 
 button.addEventListener('click', function() {
-// button.onclick = function() {
+
 let myItem = input.value;
 input.value = '';
 

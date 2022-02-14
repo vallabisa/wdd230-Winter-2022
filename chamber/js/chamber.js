@@ -22,4 +22,12 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
+// display a banner on Mondays or Tuesdays only
+var currentDay = now.getDay()
+if (currentDay = 2) {
+    document.getElementById("day").innerHTML = "Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+}
+if (currentDay = 3) {
+    document.getElementById("day").innerHTML = "Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+}
 

@@ -34,12 +34,12 @@ body {
     height: auto;
     padding: 0.3rem;
   }
-  .facebook:hover,
+  /* .facebook:hover,
   .linkedin:hover {
     border-radius: 7px;
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 4px 5px 9px gold;
-  }
+  } */
   date {
     display: flex;
     flex-direction: column;
@@ -106,12 +106,12 @@ body {
     font-size: 1rem;
     color: gold;
   }
-  nav button:hover {
+  /* nav button:hover {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     font-size: 1.3rem;
     box-shadow: 4px 5px 9px white;
-  }
+  } */
   nav ul {
     list-style-type: none;
     padding: 0;
@@ -130,12 +130,14 @@ body {
       var(--d, 0) 10px no-repeat;
     transition: 0.5s;
   }
-  nav a:hover {
+  /* nav a:hover {
     --d: 75%;
-  }
-  nav ul li a:hover {
+  } */
+
+  
+  /* nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.5);
-  }
+  } */
   nav ul {
     display: none;
   }
@@ -224,7 +226,9 @@ body {
     text-align: center;
   }
   
-
+  a:hover {
+    background-color: rgb(175, 175, 172);
+  }
 
 
 
@@ -247,4 +251,5 @@ date {
 	border: 1px solid #bbb;
 	padding: 0.75rem;
 	background-color: #eee;
+  color: #050505;
 }

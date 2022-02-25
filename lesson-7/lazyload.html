@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" >
+    <link rel="shortcut icon" href="images/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Yuji+Syuku&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <title>Lazyload</title>
+  </head>
+
+  <body>
+  <!-- HEADER--> 
+    <header>
+      
+      <section class="heading">
+        <h1>Progressive Loading of Images</h1>
+        
+      </section>
+      
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span></span></button>
+      
+    </nav>
+   
+    </header>
+    <h4 id="day"></h4>
+    <date></date>
+    <!-- CONTENT HERE -->
+    <main>
+        <picture class="center">
+            <img src="images/image-placeholder.jpg" data-src="images/karthik-sreenivas-rsx-joaKYrk-unsplash.jpg" alt="Forest">
+            <img src="images/image-placeholder.jpg" data-src="images/kaung-myat-min-iBLWICTNt0Y-unsplash.jpg" alt="City Street">
+            <img src="images/image-placeholder.jpg" data-src="images/mostafa-meraji-DFT3KssiI6U-unsplash.jpg" alt="Hotel">
+            <img src="images/image-placeholder.jpg" data-src="images/mostafa-meraji-HJgEB78b2Z8-unsplash.jpg" alt="River">
+            <img src="images/image-placeholder.jpg" data-src="images/sam-moqadam-_kn16nC2vcw-unsplash.jpg" alt ="Snail">
+            <img src="images/image-placeholder.jpg" data-src="images/tengyart-kSvpTrfhaiU-unsplash.jpg" alt="Snow River">
+        </picture>
+
+  
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+      
+      <br />
+      <hr />
+      <br />
+      <info class="botInfo">
+        <p id="copyright">
+          &copy; 2022 | Val Lorence Labisa | WDD230 
+        </p>
+        <p id="lastmod"></p>
+      </info>
+    </footer>
+  </body>
+  <!-- JAVASCRIPT --> 
+  <script defer src="js/lazyload.js"></script>
+  <script src="js/lazyload.js"></script>
+
+</html>

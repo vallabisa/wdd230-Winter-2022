@@ -266,3 +266,10 @@ date {
 	background-color: #eee;
   color: #050505;
 }
+
+.sectDiscover {
+  border: 1px solid #1E96FC;
+  background-color: #EAF6FF;
+  padding: 2rem;
+  text-align: center;
+}
